@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dritributor</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css" type="text/css">
+</head>
+
+
+
+<body class="container col-10 " id="body">
+    <h1 class="text-center" id="head"><b>DISTRIBUTOR REGISTRATION FORM</b></h1>
+    <br><br><br>
+    <form action="./buy.html" style="border:5px solid white; font-size:15px; color:black">
+        <form>
+            <h4 class="text-left">Registration form for dealers and representatives</h4>
+
+            <div class="container mt-4">
+                <section>
+                    <div class="row g-3 align-items-center">
+                        <div class="col-auto">
+                            <label class="col-form-label" for="name" aria-required="true">Fullname</label>
+
+                        </div>
+                        <div class="col-auto">
+                            <input type="text" class="form-control" id="name"required>
+                        </div>
+                    </div>
+                </section>
+                <br><br>
+                <section>
+                    <div class="row g-3 align-items-center">
+                        <div class="col-auto">
+                            <label class="col-form-label" for="name" aria-required="true">Do you have a Facebook
+                                account?</label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                &nbsp; Yes
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                            <label class="form-check-label" for="flexRadioDefault2">
+                                &nbsp; No
+                            </label>
+                        </div>
+                    </div>
+                </section>
+
+
+                <br>
+                <section>
+                    <div class="row g-3 align-items-center">
+                        <div class="col-auto">
+                            <label class="col-form-label" for="name" aria-required="true">Address
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                </section>
+
+                <br>
+
+                <section>
+                    <div class="row g-3 align-items-center">
+                        <div class="col-auto">
+                            <label class="col-form-label" for="name" aria-required="true" required>Phone Number</label>
+
+                        </div>
+                        <div class="col-auto">
+                            <input type="tel" min="10" max="10" class="form-control" id="name" required>
+
+
+                        </div>
+
+                    </div>
+                </section>
+                <br>
+                <section>
+                    <div class="row g-3 align-items-center">
+                        <div class="col-auto">
+                            <label class="col-form-label" for="name" aria-required="true" required>Email</label>
+
+                        </div>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <div class="col-auto">
+                            <input type="email" class="form-control" required>
+
+
+                        </div>
+
+                    </div>
+                </section>
+
+        </form>
+        <br><br><br>
+
+        <h4 class="text-left">Representative and Recruiter (important info for compensation plan)</h4>
+        <form>
+            <section>
+                <div class="row g-3 align-items-center">
+                    <div class="col-auto">
+                        <label class="col-form-label" for="name" aria-required="true">Your Recruiter</label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            &nbsp; A dealer
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            &nbsp; A representative
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            &nbsp; Registered directly
+                        </label>
+                    </div>
+                </div>
+            </section>
+        </form>
+        <br>
+        <br>
+
+        <h4 class="text-left">Order Details</h4>
+        <form>
+            <section>
+
+                <label class="col-form-label" for="name" aria-required="true">Product 1</label>
+
+
+                <div class="dropdown">
+
+                    <select class="custom-select" id="inputGroupSelect04">
+
+                        <option value="1">Ghee</option>
+                        <option value="2">Fresh Vegetables</option>
+                        <option value="3">Chilli powder</option>
+                        <option value="4">Cereals & Pulses</option>
+                    </select>
+                </div>
+                
+
+            </section>
+
+
+            <section>
+                <div class="row g-3 align-items-center">
+                    <div class="col-auto">
+                        <label class="col-form-label" for="name" aria-required="true" required>Quantity for product 1</label>
+
+                    </div>
+                    <div class="col-auto">
+                        <input type="number" min="1" max="100" class="form-control" id="name" required>
+
+
+                    </div>
+
+                </div>
+            </section>
+        </form>
+        <br><br>
+        <h4 class="text-left">Payment Details</h4>
+        <form action="./buy.html">
+            <section>
+                <div class="row g-3 align-items-center">
+                    <div class="col-auto">
+                        <label class="col-form-label" for="name" aria-required="true">Payment Mode</label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            &nbsp;Remittance
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            &nbsp; Cash on delivery (meet up)
+                        </label>
+                    </div>
+                </div>
+            </section>
+            <br>
+            <br>
+
+
+            <form>
+                <div class="form-group">
+                    <label for="exampleFormControlFile1">Amount paid receipt: </label>
+                    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                </div>
+            </form>
+            <br>
+            <br>
+
+            <input class="btn btn-success" type="submit" value="Log In">
+        </form>
+    </form>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
